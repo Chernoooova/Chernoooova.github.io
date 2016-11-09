@@ -23,7 +23,7 @@ body, html {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -173,13 +173,18 @@ Main components
   z-index: 4;
   top:0;
 }
+
+.about {
+  color: #ffffff;
+}
+
 .about p {
   position:absolute;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 50px;
-  text-align: left;
+  
+  text-align: center;
   padding:30px; 
   
 
@@ -199,5 +204,51 @@ Main components
   font-weight: bold;
   font-size:1.25rem;
   text-align: center;
-  padding:30px; 
   line-height:auto;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.element {
+    
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.6;   
+   
+    
+
+}
+
+.element p {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    transform: translateX(-50%) translateY(-50%);
+    width: 90%;
+    max-width: 768px;
+}
+
