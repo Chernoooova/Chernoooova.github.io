@@ -250,10 +250,13 @@ function PointText(_stringArray,_align,_x,_y,_textSize,_tracking,_textLeading) {
 
   this.mouseCheck = function(){
       if (this.align = CENTER) {
+        console.log("MOUSE CHECK")
         if(mouseX > this.x-this.w/2 && mouseX < this.x + this.w/2) {
           if (mouseY > this.y - this.h && mouseY < this.y+this.h) {
+            console.log("MOUSE CHECK true")
             return true;
-          } 
+          }
+          console.log("MOUSE CHECK false")
         }
       } 
   }
