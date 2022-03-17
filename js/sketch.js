@@ -31,7 +31,7 @@ function setup() {
   sAdd = ["+"];
   
   r = 60;
-  strength = 1.0;
+  strength = 2.0;
 
   //text
   margin = 20;

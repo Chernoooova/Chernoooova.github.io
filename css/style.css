@@ -16,6 +16,7 @@ body {
   color: white;
   font-weight: bold;
   background-color: white;
+
 }
 
 body, html {
@@ -60,9 +61,11 @@ Main components
 .cd-section:nth-of-type(even) {
   background-color: black;
 }
+
 .cd-section:nth-of-type(even) p {
   color: white;
 }
+
 .cd-section h1, .cd-section p {
   position: absolute;
   left: 50%;
@@ -251,4 +254,21 @@ Main components
     width: 90%;
     max-width: 768px;
 }
+
+.sign {
+  position: absolute;
+  z-index: 5;
+  top:0;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  text-align: center;
+  padding:30px; 
+
+  }
+
+  .portfolio {
+        background-color: transparent;
+  }
 

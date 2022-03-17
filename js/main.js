@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
 
 $(function(){
 		$(".element").typed({
-			strings: ["Multi-disciplined designer from Moscow<br>My skills include: HTML, CSS, Bootstrap, Git, User research, crafting personas, wireframing & prototyping<br>Also looks great naked"],
+			strings: ["Art director and graphic designer. Over 4 years’ experience in graphic design and one year experience as an art director in advertisement agency. Experience in leading and managing a four-people team."],
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
 			// typing speed
